@@ -1,0 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;600;700;800;900&display=swap');
+html[dir="rtl"],html[dir="rtl"] body{direction:rtl;text-align:right;font-family:'Tajawal',sans-serif}
+html[dir="rtl"] h1,html[dir="rtl"] h2,html[dir="rtl"] h3,html[dir="rtl"] h4,html[dir="rtl"] h5{font-family:'Tajawal',sans-serif;letter-spacing:0}
+html[dir="rtl"] .navbar-brand{margin-left:1rem;margin-right:0}
+html[dir="rtl"] .navbar .nav-link:after{left:.85rem;right:.85rem;transform-origin:right}
+html[dir="rtl"] .ms-auto{margin-right:auto!important;margin-left:0!important}
+html[dir="rtl"] .me-auto{margin-left:auto!important;margin-right:0!important}
+html[dir="rtl"] .text-start{text-align:right!important}
+html[dir="rtl"] .text-end{text-align:left!important}
+html[dir="rtl"] .dropdown-menu{ text-align:right}
+html[dir="rtl"] .services-mega-menu{left:50%!important;right:auto!important;transform:translateX(-50%)}
+html[dir="rtl"] .services-mega-link{flex-direction:row}
+html[dir="rtl"] .form-check{padding-right:1.5em;padding-left:0}
+html[dir="rtl"] .form-check .form-check-input{float:right;margin-right:-1.5em;margin-left:0}
+html[dir="rtl"] .gold-line{background:linear-gradient(270deg,var(--gold),transparent)}
+html[dir="rtl"] .footer-links a:before,html[dir="rtl"] footer ul a:before{margin-left:.15rem}
+html[dir="rtl"] .breadcrumb-item+.breadcrumb-item::before{float:right;padding-left:.5rem;padding-right:0}
+html[dir="rtl"] .modal-header .btn-close{margin:-.5rem auto -.5rem -.5rem}
+html[dir="rtl"] .navbar-toggler{margin-right:auto;margin-left:0}
+html[dir="rtl"] .dropdown-toggle::after{margin-right:.4em;margin-left:0}
+@media(max-width:991.98px){html[dir="rtl"] .navbar-collapse{direction:rtl}}
+
+html[dir="rtl"] .footer-map-link{direction:rtl} html[dir="rtl"] .language-switch{font-family:Tajawal,sans-serif}
